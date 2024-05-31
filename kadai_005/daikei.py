@@ -1,4 +1,4 @@
-number1=10
-number2=20
-number3=5
-print(str((number1+number2)*number3/2)+"cm²")
+upper = 10
+bottom = 20
+height = 5
+print(str((upper + bottom ) * height / 2) + "cm²")
