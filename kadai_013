@@ -1,6 +1,6 @@
 def calculate_total(price,tax_rate):
     tax_amount = price * tax_rate
     total = price + tax_amount
-    print(f'{total}円')
+    return total
 
-calculate_total(1000,0.1)
+print(calculate_total(1000,0.1))
